@@ -44,28 +44,28 @@ const SliderComponent = () => {
       </div>
 
       <div className="text-center text-5xl mt-20">
-        Rent with following 3 working steps
+        Service with following 3 working steps
       </div>
       <div className="flex flex-col items-center justify-center mt-32 md:flex-row md:justify-center md:space-x-10">
         <div className="flex flex-col items-center cursor-pointer">
           <Image src={icon} alt="icon" />
-          <p className="mt-5 font-black">Choose location</p>
+          <p className="mt-5 font-black">Request a Quote</p>
           <p className="mt-3 text-center w-48">
-            Choose your and find your best car
+            Share your car's details and the required service, and we'll provide you with a clear, competitive quote.
           </p>
         </div>
         <div className="flex flex-col items-center mt-10 md:mt-0 cursor-pointer ">
           <Image src={ico} alt="icon" />
-          <p className="mt-5 font-black">Pick-up date</p>
+          <p className="mt-5 font-black">Approve and Schedule</p>
           <p className="mt-3 text-center w-60">
-            Select your pick up date and time to book your car
+            Once you're happy with the quote, choose a convenient date and time for the service to begin.
           </p>
         </div>
         <div className="flex flex-col items-center mt-10 md:mt-0 cursor-pointer ">
           <Image src={ic} alt="icon" />
-          <p className="mt-5 font-black">Book your car</p>
+          <p className="mt-5 font-black">Repair and Deliver</p>
           <p className="mt-3 text-center w-64">
-            Book your car and we will deliver it directly to you
+            Our experts will get to work on your car, and once completed, we'll notify you for pickup or arrange delivery to your preferred location.
           </p>
         </div>
       </div>

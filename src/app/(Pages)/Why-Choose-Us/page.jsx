@@ -10,24 +10,24 @@ const page = () => {
   const data = [
     {
       item: "Best price guaranteed",
-      content: " Find a lower price? We’ll refund you 100% of the difference.",
+      content: "We deliver premium car service at the most competitive prices",
       src: i,
     },
     {
-      item: "Experience driver",
+      item: "Quotes and Assessments",
       content:
-        " Don’t have driver? Don’t worry, we have many experienced driver for you.",
+        "We provide transparent pricing with quotes and assessments for all car service needs",
       src: ii,
     },
     {
-      item: "24 hour car delivery",
-      content: " Book your car anytime and we will deliver it directly to you.",
+      item: "Expert Technicians",
+      content: "Our skilled technicians are experienced in panel beating, body repairs, and all types of car maintenance, ensuring your vehicle gets the highest level of care",
       src: iii,
     },
     {
       item: "24/7 technical support",
       content:
-        " Have a question? Contact Rentcars support any time when you have problem.",
+        "Have a question or an issue during your service? Our support team is available around the clock to assist you.",
       src: iiii,
     },
   ];
@@ -44,7 +44,7 @@ const page = () => {
           </button>
         </div>
         <div className="text-center text-5xl mt-20">
-          We offer the best experience with our rental deals
+          Experience top-notch service and unbeatable value with our car service deals
         </div>
         <div className="mt-8 md:mt-16  p-3">
           {data.map((data, index) => (
